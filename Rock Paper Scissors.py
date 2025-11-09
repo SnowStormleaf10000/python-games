@@ -1,0 +1,93 @@
+import random, time
+
+print("Welcome to Rock-Paper-Scissors!")
+def Roshambo():
+    cpu = random.randint(1,3)
+    moverps = input("What would you like to choose? rock, paper, or scissors?")
+    if moverps == "rock":
+        if cpu == 1:
+            print("Rock!")
+            time.sleep(0.5)
+            print("Paper!")
+            time.sleep(0.5)
+            print("Scissors!")
+            time.sleep(0.5)
+            print("The CPU played Rock - Tie!")
+            time.sleep(3)
+        if cpu == 2:
+            print("Rock!")
+            time.sleep(0.5)
+            print("Paper!")
+            time.sleep(0.5)
+            print("Scissors!")
+            time.sleep(0.5)
+            print("The CPU played Paper - You lose!")
+            time.sleep(3)
+        if cpu == 3:
+            print("Rock!")
+            time.sleep(0.5)
+            print("Paper!")
+            time.sleep(0.5)
+            print("Scissors!")
+            time.sleep(0.5)
+            print("The CPU played Scissors - You win!")
+            time.sleep(3)
+    if moverps == "paper":
+        if cpu == 1:
+            print("Rock!")
+            time.sleep(0.5)
+            print("Paper!")
+            time.sleep(0.5)
+            print("Scissors!")
+            time.sleep(0.5)
+            print("The CPU played Rock - You win!")
+            time.sleep(3)
+        if cpu == 2:
+            print("Rock!")
+            time.sleep(0.5)
+            print("Paper!")
+            time.sleep(0.5)
+            print("Scissors!")
+            time.sleep(0.5)
+            print("The CPU played Paper - Tie!")
+            time.sleep(3)
+        if cpu == 3:
+            print("Rock!")
+            time.sleep(0.5)
+            print("Paper!")
+            time.sleep(0.5)
+            print("Scissors!")
+            time.sleep(0.5)
+            print("The CPU played Scissors - You lose!")
+            time.sleep(3)
+    if moverps == "scissors":
+        if cpu == 1:
+            print("Rock!")
+            time.sleep(0.5)
+            print("Paper!")
+            time.sleep(0.5)
+            print("Scissors!")
+            time.sleep(0.5)
+            print("The CPU played Rock - You lose!")
+            time.sleep(3)
+        if cpu == 2:
+            print("Rock!")
+            time.sleep(0.5)
+            print("Paper!")
+            time.sleep(0.5)
+            print("Scissors!")
+            time.sleep(0.5)
+            print("The CPU played Paper - You win!")
+            time.sleep(3)
+        if cpu == 3:
+            print("Rock!")
+            time.sleep(0.5)
+            print("Paper!")
+            time.sleep(0.5)
+            print("Scissors!")
+            time.sleep(0.5)
+            print("The CPU played Scissors - Tie!")
+            time.sleep(3)
+
+Roshambo()
+
